@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "OErulYTUu/ih/2dK79n+calXs8zB+DTP0pOq6WTHzSt+er8uCLsmonYdl0WS1A83CdwCueRr4/ff7L8x9ZhY2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dvory\\Desktop\\LostButFound\\req\\req.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dvory\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
