@@ -8,41 +8,42 @@ class Program
     public static void Main()
     {
         //дз 2.7
-        Console.Write("Введите путь(км): ");
-        int way = int.Parse(Console.ReadLine());
-        Console.Write("Введите время(мин): ");
-        int time = int.Parse(Console.ReadLine());
-        Console.WriteLine(taxiPrice(way, time));
+        //Console.Write("Введите путь(км): ");
+        //int way = int.Parse(Console.ReadLine());
+        //Console.Write("Введите время(мин): ");
+        //int time = int.Parse(Console.ReadLine());
+        //Console.WriteLine(taxiPrice(way, time));
 
         //дз 6.1 абв (Данил вроде говорил немного самых простых тож решать но это не точно)
-        PrintSortedArray(new int[] { 23, 1, 21, 100 });
-        PrintChangedSortedArr(new string[] { "dsfsdv", "cwdd", "sadED", "DCsdds", "cses", "cdCDCSD" });
-        PrintConcatedArrays(new string[] { "dd", "cded", "wdfs" }, new string[] { "dsdff", "fsfvfrsq", "dsds" });
+        //PrintSortedArray(new int[] { 23, 1, 21, 100 });
+        //PrintChangedSortedArr(new string[] { "dsfsdv", "cwdd", "sadED", "DCsdds", "cses", "cdCDCSD" });
+        //PrintConcatedArrays(new string[] { "dd", "cded", "wdfs" }, new string[] { "dsdff", "fsfvfrsq", "dsds" });
 
-        //дз 6.3
-        Diary diary = new Diary(10);
-        diary.WriteStudent("Bob", "QA", Rate.Medium);
-        diary.WriteStudent("Jack", "Doctor", Rate.Bad);
-        diary.WriteStudent("Liza", "Teacher", Rate.Exccelent);
-        diary.WriteStudent("Tom", "ML", Rate.Medium);
-        diary.WriteStudent("Jessie", "Back", Rate.Bad);
-        diary.WriteStudent("Maria", "Front", Rate.Exccelent);
-        diary.WriteStudent("Mark", "Teacher", Rate.Exccelent);
-        diary.WriteStudent("Maxim", "ML", Rate.Medium);
-        diary.WriteStudent("Danil", "Back", Rate.Bad);
-        diary.WriteStudent("Sarah", "Front", Rate.Exccelent);
+        ////дз 6.3
+        //Diary diary = new Diary(10);
+        //diary.WriteStudent("Bob", "QA", Rate.Medium);
+        //diary.WriteStudent("Jack", "Doctor", Rate.Bad);
+        //diary.WriteStudent("Liza", "Teacher", Rate.Exccelent);
+        //diary.WriteStudent("Tom", "ML", Rate.Medium);
+        //diary.WriteStudent("Jessie", "Back", Rate.Bad);
+        //diary.WriteStudent("Maria", "Front", Rate.Exccelent);
+        //diary.WriteStudent("Mark", "Teacher", Rate.Exccelent);
+        //diary.WriteStudent("Maxim", "ML", Rate.Medium);
+        //diary.WriteStudent("Danil", "Back", Rate.Bad);
+        //diary.WriteStudent("Sarah", "Front", Rate.Exccelent);
 
-        diary.PrintStudents();
+        //diary.PrintStudents();
 
 
         
         //дз 8.3
-        // todo сделать грузовик, реализовать остановку авто когда бензин кончился, подумать что нужно добавить еще, сделать у класса авто поля protected
-        Bus bus = new Bus("Автобус", 2000, 10, 100000, 5, 100, 1500, 20);
+        // todo сделать грузовик, подумать что нужно добавить еще, сделать у класса авто поля protected
+        Bus bus = new Bus(new Driver("Mike", 100000), "Автобус", 2000, 10, 100000, 5, 100, 1500, 20);
         bus.About();
         bus.FillFuel(20);
         bus.Move(1000);
-        bus.About();
+        //bus.About();
+        bus.FillThings(199);
     }
 
     public static int taxiPrice(int way, int time)

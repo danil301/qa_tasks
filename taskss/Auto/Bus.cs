@@ -14,7 +14,8 @@ namespace taskss.Auto
 
         public int PassangerAmount { get; set; }
 
-        public Bus(string name, int realised, int fuel, int mileage, int averageConsumption, int volume, int maxWeight, int maxPassangersAmount) : base(name, realised, fuel, mileage, averageConsumption, volume, maxWeight)
+        public Bus(Driver driver, string name, int realised, int fuel, int mileage, int averageConsumption, int volume, int maxWeight, int maxPassangersAmount) 
+            : base(driver, name, realised, fuel, mileage, averageConsumption, volume, maxWeight)
         {
             OwnWeight = MaxWeight - MaxPassangersAmount * 85;
             MaxPassangersAmount = maxPassangersAmount;
@@ -47,9 +48,9 @@ namespace taskss.Auto
             }
             else
             {
-                OwnWeight += (MaxPassangersAmount - PassangerAmount) * 85;
-                PassangerAmount = MaxPassangersAmount;
+                OwnWeight += (MaxPassangersAmount - PassangerAmount) * 85;               
                 Console.WriteLine($"Зашло {MaxPassangersAmount - PassangerAmount} пассажиров");
+                PassangerAmount = MaxPassangersAmount;
             }
         }
     }
