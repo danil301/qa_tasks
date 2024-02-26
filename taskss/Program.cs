@@ -8,7 +8,11 @@ class Program
     public static void Main()
     {
         //дз 2.7
-        Console.WriteLine(taxiPrice(10, 10));
+        Console.Write("Введите путь(км): ");
+        int way = int.Parse(Console.ReadLine());
+        Console.Write("Введите время(мин): ");
+        int time = int.Parse(Console.ReadLine());
+        Console.WriteLine(taxiPrice(way, time));
 
         //дз 6.1 абв (Данил вроде говорил немного самых простых тож решать но это не точно)
         PrintSortedArray(new int[] { 23, 1, 21, 100 });
@@ -55,13 +59,25 @@ class Program
 
     public static void PrintChangedSortedArr(string[] arr)
     {
-        if (arr.Length > 0) arr[0] = "Q";
-        if (arr.Length > 1) arr[1] = "W";
-        if (arr.Length > 2) arr[2] = "E";
+        if (arr.Length > 0) arr[0] = RandomString();
+        if (arr.Length > 1) arr[1] = RandomString();
+        if (arr.Length > 2) arr[2] = RandomString();
 
         Array.Sort(arr);
         var str = string.Join(" ", arr);
         Console.WriteLine(str);
+    }
+
+    public static string RandomString()
+    {
+        Random random = new Random();
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        int len = random.Next(1, 20);
+
+        string str = string.Empty;
+        for (int i = 0; i < len; i++) str += chars[random.Next(0, chars.Length - 1)];
+
+        return str;
     }
 
     public static void PrintConcatedArrays(string[] arr1, string[] arr2)
