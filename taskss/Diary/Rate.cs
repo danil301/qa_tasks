@@ -11,6 +11,6 @@ namespace taskss.Diary
         Bad = 2,
         Medium = 3,
         Good = 4,
-        Exccelent = 5,
+        Excellent = 5,
     }
 }

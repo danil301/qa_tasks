@@ -8,17 +8,29 @@ namespace taskss.Diary
 {
     public class Diary
     {
-        private Student[] students;
+        private Student[] _students;
         int cursor;
 
         public Diary(int capacity)
         {
             cursor = 0;
-            students = new Student[capacity];
+            _students = new Student[capacity];
         }
 
+        /// <summary>
+        /// Запись ученика в дневник
+        /// </summary>
+        /// <param name="name">Имя</param>
+        /// <param name="branch">Профессия</param>
+        /// <param name="rate">Оценка</param>
         public void WriteStudent(string name, string branch, Rate rate)
         {
+            if (IsAnyStringEmptyOrWhiteSpace(new string[] { name, branch }))
+            {
+                Console.WriteLine("Имя и/или профессия не должна(ы) быть пуста(ы)");
+                return;
+            }
+
             Student student = new Student()
             {
                 Name = name,
@@ -26,27 +38,39 @@ namespace taskss.Diary
                 Rate = rate
             };
 
-            if (cursor < students.Length)
+            if (cursor < _students.Length)
             {
-                students[cursor] = student;
+                _students[cursor] = student;
                 cursor++;
             }
             else
             {
                 Console.WriteLine("Страницы для записи закончились");
-            }
-            
+            }   
         }
 
+        /// <summary>
+        /// Вывод всех студентов в консоль
+        /// </summary>
         public void PrintStudents()
         {
             for (int i = 0; i < cursor; i++)
             {
-                Console.WriteLine($"Имя: {students[i].Name}");
-                Console.WriteLine($"Профессия: {students[i].Branch}");
-                Console.WriteLine($"Оценка: {(int)students[i].Rate}");
+                Console.WriteLine($"Имя: {_students[i].Name}");
+                Console.WriteLine($"Профессия: {_students[i].Branch}");
+                Console.WriteLine($"Оценка: {(int)_students[i].Rate}");
                 Console.WriteLine("-------------------------------------------------");
             }
+        }
+
+
+        public bool IsAnyStringEmptyOrWhiteSpace(string[] strings)
+        {
+            foreach (var str in strings)
+            {
+                if (string.IsNullOrWhiteSpace(str)) return true;
+            }
+            return false;
         }
     }
 }

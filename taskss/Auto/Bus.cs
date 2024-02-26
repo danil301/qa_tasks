@@ -8,11 +8,11 @@ namespace taskss.Auto
 {
     public class Bus : Auto
     {
-        public int OwnWeight { get; set; }
+        private int OwnWeight { get; set; }
 
-        public int MaxPassangersAmount { get; set; }
+        private int MaxPassangersAmount { get; set; }
 
-        public int PassangerAmount { get; set; }
+        private int PassangerAmount { get; set; }
 
         public Bus(Driver driver, string name, int realised, int fuel, int mileage, int averageConsumption, int volume, int maxWeight, int maxPassangersAmount) 
             : base(driver, name, realised, fuel, mileage, averageConsumption, volume, maxWeight)
@@ -22,6 +22,9 @@ namespace taskss.Auto
             PassangerAmount = 0;
         }
 
+        /// <summary>
+        /// Заполнение автобуса людьми(10 человек)
+        /// </summary>
         public override void FillThings()
         {
             if (PassangerAmount + 10 <= MaxPassangersAmount)
@@ -38,6 +41,10 @@ namespace taskss.Auto
             }
         }
 
+        /// <summary>
+        /// Заполнение автобуса людьми
+        /// </summary>
+        /// <param name="amount">Колличество человек</param>
         public void FillThings(int amount)
         {
             if (PassangerAmount + amount <= MaxPassangersAmount)
@@ -53,5 +60,10 @@ namespace taskss.Auto
                 PassangerAmount = MaxPassangersAmount;
             }
         }
+
+        /// <summary>
+        /// Выводит в консоль информацию о текущем количестве пассажиров
+        /// </summary>
+        public void PrintPassangersAmount() => Console.WriteLine($"В автобусе {PassangerAmount} пассажиров");
     }
 }
