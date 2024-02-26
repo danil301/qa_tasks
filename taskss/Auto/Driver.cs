@@ -23,7 +23,7 @@ namespace taskss.Auto
             return Money;
         }
 
-        public void SetMoney(int amount)
+        public void AddMoney(int amount)
         {
             Money += amount;
         }
