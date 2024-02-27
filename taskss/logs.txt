@@ -1,0 +1,12 @@
+﻿Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 0., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 1., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 2., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 3., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 4., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 5., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 6., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 7., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 8., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Добавлен студент(номер в журнале 9., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Имя и/или профессия не должна(ы) быть пуста(ы)., Time: 27.02.2024 13:20:49
+Method: DiaryWriteStudentAsync, Message: Страницы для записи закончились., Time: 27.02.2024 13:20:49

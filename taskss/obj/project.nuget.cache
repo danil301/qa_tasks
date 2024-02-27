@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "lCHlk5a5A4scfHtbg8GeIPWBWJacc+PAuPdK7/mUpLwVj76N/Y9+NdPwv6WHtTl4caq2Vv2tCYfJeX+KAN5AwQ==",
+  "dgSpecHash": "9kCzseitTgZ9LkHTQRkRb4UHrty8mrFE6GFuxt1aCqNiYqa80T25IDpa48kWtl/uWDgTfSMnD7FdKS+g7LC05Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\dvory\\Desktop\\LostButFound\\taskss\\taskss.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

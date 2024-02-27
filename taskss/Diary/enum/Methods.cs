@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace taskss.Diary
+namespace taskss.Diary.@enum
 {
-    public enum Rate
+    public enum Methods
     {
-        Bad = 2,
-        Medium = 3,
-        Good = 4,
-        Excellent = 5,
+        DiaryWriteStudentAsync,
     }
 }
