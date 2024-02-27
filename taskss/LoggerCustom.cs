@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 
-namespace taskss.Diary
+
+namespace taskss
 {
     public class LoggerCustom
     {
-        private string path;
+        private string _path;
 
         public LoggerCustom(string path)
         {
-            this.path = path;
+            _path = path;
         }
 
         /// <summary>
@@ -24,7 +19,7 @@ namespace taskss.Diary
         /// <returns></returns>
         public async Task LogAsync(string message)
         {
-            using (StreamWriter writer = new StreamWriter(path, true))
+            using (StreamWriter writer = new StreamWriter(_path, true))
             {
                 StackTrace st = new StackTrace(true);
                 string stackIndent = "";
@@ -36,15 +31,12 @@ namespace taskss.Diary
                         writer.WriteLine(message);
                     }
                     writer.WriteLine();
-                    writer.WriteLine(stackIndent + " Method: {0}",
-                        sf.GetMethod());
-                    writer.WriteLine(stackIndent + " File: {0}",
-                        sf.GetFileName());
-                    writer.WriteLine(stackIndent + " Line Number: {0}",
-                        sf.GetFileLineNumber());
+                    writer.WriteLine(stackIndent + " Method: {0}", sf.GetMethod());
+                    writer.WriteLine(stackIndent + " File: {0}", sf.GetFileName());
+                    writer.WriteLine(stackIndent + " Line Number: {0}", sf.GetFileLineNumber());
                     stackIndent += "  ";
                     await writer.WriteLineAsync();
-                }               
+                }
             }
         }
     }

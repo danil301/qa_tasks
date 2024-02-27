@@ -10,14 +10,14 @@ namespace taskss.Diary
     public class Diary
     {
         private LoggerCustom _loggerCustom;
-        private Student[] _students;
-        int cursor;
+        private List<Student> _students;
+        private int _length;
 
         public Diary(int capacity)
         {
-            cursor = 0;
-            _students = new Student[capacity];
-            _loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/logs.txt");
+            _length = capacity;
+            _students = new List<Student>(capacity);
+            _loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/Diary/logs.txt");
         }
 
         /// <summary>
@@ -42,11 +42,10 @@ namespace taskss.Diary
                 Rate = rate
             };
 
-            if (cursor < _students.Length)
+            if (_students.Count < _length)
             {
-                _students[cursor] = student;
-                cursor++;
-                await _loggerCustom.LogAsync($"Добавлен студент(номер в журнале {cursor - 1}).");
+                _students.Add(student);
+                await _loggerCustom.LogAsync($"Добавлен студент(номер в журнале {_students.Count - 1}).");
             }
             else
             {
@@ -60,7 +59,7 @@ namespace taskss.Diary
         /// </summary>
         public void PrintStudents()
         {
-            for (int i = 0; i < cursor; i++)
+            for (int i = 0; i < _students.Count; i++)
             {
                 Console.WriteLine($"Имя: {_students[i].Name}");
                 Console.WriteLine($"Профессия: {_students[i].Branch}");

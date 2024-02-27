@@ -1,7 +1,7 @@
 ﻿Бензин закончился. Автобус проехал 0 км
 
  Method: Void MoveNext()
- File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\LoggerCustom.cs
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
  Line Number: 29
 
 
@@ -22,10 +22,10 @@
 
          Method: Void Move(Int32)
          File: C:\Users\dvory\Desktop\LostButFound\taskss\Auto\Auto.cs
-         Line Number: 62
+         Line Number: 61
 
 
            Method: Void Main()
            File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-           Line Number: 63
+           Line Number: 61
 
