@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using taskss.Diary;
 
 namespace taskss.Auto
 {
     public abstract class Auto
     {
+        private LoggerCustom _loggerCustom;
+
         protected Driver Driver { get; set; }
 
         protected string Name { get; set; }
@@ -43,6 +44,7 @@ namespace taskss.Auto
             AverageConsumption = averageConsumption;
             Volume = volume;
             MaxWeight = maxWeight;
+            _loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/Auto/logs.txt");
         }
 
         /// <summary>
@@ -57,6 +59,7 @@ namespace taskss.Auto
                 Mileage += AverageConsumption * Fuel;
                 Console.WriteLine($"Бензин закончился. {Name} проехал {AverageConsumption * Fuel} км");
                 Fuel = 0;
+                _loggerCustom.LogAsync($"Бензин закончился. {Name} проехал {AverageConsumption * Fuel} км");
             }
             else
             {
@@ -95,7 +98,11 @@ namespace taskss.Auto
                 if (Fuel > Volume) Fuel = Volume;
                 Console.WriteLine($"Бак заправлен до {Fuel}л.");
             }
-            else Console.WriteLine("У водителя недостаточно денег.");
+            else
+            {
+                _loggerCustom.LogAsync("У водителя недостаточно денег.");
+                Console.WriteLine("У водителя недостаточно денег.");
+            }
             
         }
 

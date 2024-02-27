@@ -1,8 +1,3 @@
-C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.exe
-C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.deps.json
-C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.runtimeconfig.json
-C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.dll
-C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.pdb
 C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\taskss.csproj.AssemblyReference.cache
 C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\taskss.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\taskss.AssemblyInfoInputs.cache
@@ -11,8 +6,11 @@ C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\taskss.csproj.CoreCo
 C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\taskss.dll
 C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\refint\taskss.dll
 C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\taskss.pdb
-C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\taskss.genruntimeconfig.cache
-C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\ref\taskss.dll
+C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.exe
+C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.deps.json
+C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.runtimeconfig.json
+C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.dll
+C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\taskss.pdb
 C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
@@ -20,3 +18,5 @@ C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\Microsoft.Extensions
 C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Users\dvory\Desktop\LostButFound\taskss\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\taskss.csproj.CopyComplete
+C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\taskss.genruntimeconfig.cache
+C:\Users\dvory\Desktop\LostButFound\taskss\obj\Debug\net6.0\ref\taskss.dll

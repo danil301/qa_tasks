@@ -1,4 +1,5 @@
-﻿using taskss.Auto;
+﻿using System.Diagnostics;
+using taskss.Auto;
 using taskss.Diary;
 using taskss.Diary.@enum;
 
@@ -8,25 +9,26 @@ class Program
 {
     public static void Main()
     {
+        
 
-        ////дз 2.7
-        //int way;
-        //int time;
-        //Console.Write("Введите путь(км): ");
-        //bool wayCheck = int.TryParse(Console.ReadLine(), out way);
-        //Console.Write("Введите время(мин): ");
-        //bool timeCheck = int.TryParse(Console.ReadLine(), out time);
-        //if (wayCheck && timeCheck && way >= 1 && time >= 1) Console.WriteLine(taxiPrice(way, time));
-        //else Console.WriteLine("Неверный формат заполнения пути и/или времени");
+            ////дз 2.7
+            //int way;
+            //int time;
+            //Console.Write("Введите путь(км): ");
+            //bool wayCheck = int.TryParse(Console.ReadLine(), out way);
+            //Console.Write("Введите время(мин): ");
+            //bool timeCheck = int.TryParse(Console.ReadLine(), out time);
+            //if (wayCheck && timeCheck && way >= 1 && time >= 1) Console.WriteLine(taxiPrice(way, time));
+            //else Console.WriteLine("Неверный формат заполнения пути и/или времени");
 
 
-        ////дз 6.1 абв(Данил вроде говорил немного самых простых тож решать но это не точно)
-        //PrintSortedArray(new int[] { 23, 1, 21, 100 });
-        //PrintChangedSortedArr(new string[] { "dsfsdv", "cwdd", "sadED", "DCsdds", "cses", "cdCDCSD" });
-        //PrintConcatedArrays(new string[] { "dd", "cded", "wdfs" }, new string[] { "dsdff", "fsfvfrsq", "dsds" });
+            ////дз 6.1 абв(Данил вроде говорил немного самых простых тож решать но это не точно)
+            //PrintSortedArray(new int[] { 23, 1, 21, 100 });
+            //PrintChangedSortedArr(new string[] { "dsfsdv", "cwdd", "sadED", "DCsdds", "cses", "cdCDCSD" });
+            //PrintConcatedArrays(new string[] { "dd", "cded", "wdfs" }, new string[] { "dsdff", "fsfvfrsq", "dsds" });
 
-        //дз 6.3
-        string[] names = new string[] { "Bob", "Jack", "Liza", "Tom", "Jessie", "Maria", "Mark", "Maxim", "Danil", "Sarah" };
+            //дз 6.3
+            string[] names = new string[] { "Bob", "Jack", "Liza", "Tom", "Jessie", "Maria", "Mark", "Maxim", "Danil", "Sarah" };
         string[] branches = new string[] { "QA", "Doctor", "Teacher", "Front", "Back", "ML" };
         Rate[] rates = new Rate[] { Rate.Bad, Rate.Medium, Rate.Good, Rate.Excellent };
         int n = 10;

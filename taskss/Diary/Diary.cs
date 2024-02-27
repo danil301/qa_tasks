@@ -31,7 +31,7 @@ namespace taskss.Diary
             if (IsAnyStringEmptyOrWhiteSpace(new string[] { name, branch }))
             {
                 Console.WriteLine("Имя и/или профессия не должна(ы) быть пуста(ы)");
-                await _loggerCustom.LogAsync(Methods.DiaryWriteStudentAsync.ToString(), "Имя и/или профессия не должна(ы) быть пуста(ы).");
+                await _loggerCustom.LogAsync("Имя и/или профессия не должна(ы) быть пуста(ы).");
                 return;
             }
 
@@ -46,12 +46,12 @@ namespace taskss.Diary
             {
                 _students[cursor] = student;
                 cursor++;
-                await _loggerCustom.LogAsync(Methods.DiaryWriteStudentAsync.ToString(), $"Добавлен студент(номер в журнале {cursor - 1}.");
+                await _loggerCustom.LogAsync($"Добавлен студент(номер в журнале {cursor - 1}).");
             }
             else
             {
                 Console.WriteLine("Страницы для записи закончились");
-                await _loggerCustom.LogAsync(Methods.DiaryWriteStudentAsync.ToString(), "Страницы для записи закончились.");
+                await _loggerCustom.LogAsync("Страницы для записи закончились.");
             }   
         }
 
