@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9kCzseitTgZ9LkHTQRkRb4UHrty8mrFE6GFuxt1aCqNiYqa80T25IDpa48kWtl/uWDgTfSMnD7FdKS+g7LC05Q==",
+  "dgSpecHash": "zTiNDWI+7OZxxaoSIs2uPoLX2zrgsSJZ+Vb2bn8iVkcsaQ5iR2/8K5x05PZUhyChN2si+bQ0ktxJli5pnMrJJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dvory\\Desktop\\LostButFound\\taskss\\taskss.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\system.drawing.common\\8.0.2\\system.drawing.common.8.0.2.nupkg.sha512",
     "C:\\Users\\dvory\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

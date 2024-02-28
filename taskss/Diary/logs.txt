@@ -1,8 +1,8 @@
-﻿Добавлен студент(номер в журнале 0).
+Добавлен студент(номер в журнале 0).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -42,13 +42,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Добавлен студент(номер в журнале 1).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -88,13 +88,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Добавлен студент(номер в журнале 2).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -134,13 +134,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Добавлен студент(номер в журнале 3).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -180,13 +180,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Добавлен студент(номер в журнале 4).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -226,13 +226,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Добавлен студент(номер в журнале 5).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -272,13 +272,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Добавлен студент(номер в журнале 6).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -318,13 +318,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Добавлен студент(номер в журнале 7).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -364,13 +364,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Добавлен студент(номер в журнале 8).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -410,13 +410,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Добавлен студент(номер в журнале 9).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -456,13 +456,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 38
+                 Line Number: 41
 
 Имя и/или профессия не должна(ы) быть пуста(ы).
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -502,13 +502,13 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 40
+                 Line Number: 43
 
 Страницы для записи закончились.
 
  Method: Void MoveNext()
  File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
- Line Number: 29
+ Line Number: 24
 
 
    Method: Void Start[TStateMachine](TStateMachine ByRef)
@@ -548,5 +548,1109 @@
 
                  Method: Void Main()
                  File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
-                 Line Number: 41
+                 Line Number: 44
+
+Добавлен студент(номер в журнале 0).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Добавлен студент(номер в журнале 1).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Добавлен студент(номер в журнале 2).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Добавлен студент(номер в журнале 3).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Добавлен студент(номер в журнале 4).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Добавлен студент(номер в журнале 5).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Добавлен студент(номер в журнале 6).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Добавлен студент(номер в журнале 7).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Добавлен студент(номер в журнале 8).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Добавлен студент(номер в журнале 9).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 54
+
+Имя и/или профессия не должна(ы) быть пуста(ы).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 34
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 56
+
+Страницы для записи закончились.
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 53
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 57
+
+Добавлен студент(номер в журнале 0).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Добавлен студент(номер в журнале 1).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Добавлен студент(номер в журнале 2).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Добавлен студент(номер в журнале 3).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Добавлен студент(номер в журнале 4).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Добавлен студент(номер в журнале 5).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Добавлен студент(номер в журнале 6).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Добавлен студент(номер в журнале 7).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Добавлен студент(номер в журнале 8).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Добавлен студент(номер в журнале 9).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 48
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 59
+
+Имя и/или профессия не должна(ы) быть пуста(ы).
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 34
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 61
+
+Страницы для записи закончились.
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void MoveNext()
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Diary\Diary.cs
+         Line Number: 53
+
+
+           Method: Void Start[TStateMachine](TStateMachine ByRef)
+           File: 
+           Line Number: 0
+
+
+             Method: Void Start[TStateMachine](TStateMachine ByRef)
+             File: 
+             Line Number: 0
+
+
+               Method: System.Threading.Tasks.Task WriteStudentAsync(System.String, System.String, taskss.Diary.enum.Rate)
+               File: 
+               Line Number: 0
+
+
+                 Method: Void Main()
+                 File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+                 Line Number: 62
 

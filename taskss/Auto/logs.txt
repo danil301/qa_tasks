@@ -29,3 +29,189 @@
            File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
            Line Number: 61
 
+Бензин закончился. Автобус проехал 0 км
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void Move(Int32)
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Auto\Auto.cs
+         Line Number: 61
+
+
+           Method: Void Main()
+           File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+           Line Number: 61
+
+Бензин закончился. Автобус проехал 0 км
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void Move(Int32)
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Auto\Auto.cs
+         Line Number: 61
+
+
+           Method: Void Main()
+           File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+           Line Number: 64
+
+Бензин закончился. Автобус проехал 0 км
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void Move(Int32)
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Auto\Auto.cs
+         Line Number: 61
+
+
+           Method: Void Main()
+           File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+           Line Number: 64
+
+Бензин закончился. Автобус проехал 0 км
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void Move(Int32)
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Auto\Auto.cs
+         Line Number: 61
+
+
+           Method: Void Main()
+           File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+           Line Number: 64
+
+Бензин закончился. Автобус проехал 0 км
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void Move(Int32)
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Auto\Auto.cs
+         Line Number: 61
+
+
+           Method: Void Main()
+           File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+           Line Number: 77
+
+Бензин закончился. Автобус проехал 0 км
+
+ Method: Void MoveNext()
+ File: C:\Users\dvory\Desktop\LostButFound\taskss\LoggerCustom.cs
+ Line Number: 24
+
+
+   Method: Void Start[TStateMachine](TStateMachine ByRef)
+   File: 
+   Line Number: 0
+
+
+     Method: Void Start[TStateMachine](TStateMachine ByRef)
+     File: 
+     Line Number: 0
+
+
+       Method: System.Threading.Tasks.Task LogAsync(System.String)
+       File: 
+       Line Number: 0
+
+
+         Method: Void Move(Int32)
+         File: C:\Users\dvory\Desktop\LostButFound\taskss\Auto\Auto.cs
+         Line Number: 61
+
+
+           Method: Void Main()
+           File: C:\Users\dvory\Desktop\LostButFound\taskss\Program.cs
+           Line Number: 82
+

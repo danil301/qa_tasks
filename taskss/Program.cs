@@ -1,4 +1,7 @@
-﻿using taskss.Auto;
+﻿using System.Drawing;
+using System.Drawing.Imaging;
+using taskss;
+using taskss.Auto;
 using taskss.Diary;
 using taskss.Diary.@enum;
 
@@ -12,12 +15,30 @@ class Program
         //дз 2.7
         int way;
         int time;
+        int someVariable;
+
         Console.Write("Введите путь(км): ");
         bool wayCheck = int.TryParse(Console.ReadLine(), out way);
         Console.Write("Введите время(мин): ");
         bool timeCheck = int.TryParse(Console.ReadLine(), out time);
-        if (wayCheck && timeCheck && way >= 1 && time >= 1) Console.WriteLine(taxiPrice(way, time));
-        else Console.WriteLine("Неверный формат заполнения пути и/или времени");
+        Console.Write("Введите параметр: ");
+        bool someVariableCheck = int.TryParse(Console.ReadLine(), out someVariable);
+
+        if (wayCheck && timeCheck && someVariableCheck && way >= 1 && time >= 1) Console.WriteLine(taxiPrice(way, time, someVariable));
+        else
+        {
+            ScreenShot screenShot = new ScreenShot("C:/Users/dvory/Desktop/LostButFound/taskss/Screens");
+            LoggerCustom loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/logs.txt");
+            var screenTitle = RandomString();
+
+            screenShot.TakeScreenshot();
+            screenShot.SaveScreenShotPng(screenTitle);
+
+
+            loggerCustom.LogAsync("Неверный формат заполнения пути и/или времени." + $" Screen Title: {screenTitle}.png");
+
+            Console.WriteLine("Неверный формат заполнения пути и/или времени.");
+        }
 
 
         //дз 6.1 абв(Данил вроде говорил немного самых простых тож решать но это не точно)
@@ -64,9 +85,32 @@ class Program
         bus.PrintPassangersAmount();
     }
 
-    public static int taxiPrice(int way, int time)
+    public static int taxiPrice(int way, int time, int someVariable)
     {
-        return Math.Max(30 * way, 40 * time);
+        try
+        {
+            return Math.Max(30 * way, 40 * time) / someVariable;
+        }
+        catch (Exception ex)
+        {
+            
+            ScreenShot screenShot = new ScreenShot("C:/Users/dvory/Desktop/LostButFound/taskss/Screens");
+            LoggerCustom loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/logs.txt");
+
+            var screenTitle = RandomString();
+
+            screenShot.TakeScreenshot();
+            screenShot.SaveScreenShotPng(screenTitle);
+
+
+            loggerCustom.LogAsync(ex.Message + $" Screen Title: {screenTitle}.png");
+            
+
+
+            Console.WriteLine(ex.Message);
+            return 0;
+        }
+        
     }
 
     public static void PrintSortedArray(int[] arr)
