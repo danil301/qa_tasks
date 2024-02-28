@@ -6,10 +6,14 @@ namespace taskss
     public class LoggerCustom
     {
         private string _path;
+        private ScreenShot _screenShot;
+        private EmailSender _emailSender;
 
-        public LoggerCustom(string path)
+        public LoggerCustom(string path, string imgPath)
         {
             _path = path;
+            _screenShot = new ScreenShot(imgPath);
+            _emailSender = new EmailSender();
         }
 
         /// <summary>
@@ -28,7 +32,11 @@ namespace taskss
                     StackFrame sf = st.GetFrame(i);
                     if (i == 0)
                     {
-                        writer.WriteLine(message);
+                        _screenShot.TakeScreenshot();
+                        _screenShot.SaveScreenShotPng();
+                        writer.WriteLine(message + $" Screen title: {_screenShot.GetScreenShotTitle()}");
+
+                        _emailSender.SendEmail("dvoryanchikov.danil@bk.ru", _screenShot.GetScreenShotTitle());
                     }
                     writer.WriteLine();
                     writer.WriteLine(stackIndent + " Method: {0}", sf.GetMethod());

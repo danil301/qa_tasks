@@ -43,7 +43,7 @@ namespace taskss.Auto
             AverageConsumption = averageConsumption;
             Volume = volume;
             MaxWeight = maxWeight;
-            _loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/Auto/logs.txt");
+            _loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/Auto/logs.txt", "C:/Users/dvory/Desktop/LostButFound/taskss/Screens");
         }
 
         /// <summary>

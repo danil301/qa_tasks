@@ -17,7 +17,7 @@ namespace taskss.Diary
         {
             _length = capacity;
             _students = new List<Student>(capacity);
-            _loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/Diary/logs.txt");
+            _loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/Diary/logs.txt", "C:/Users/dvory/Desktop/LostButFound/taskss/Screens");
         }
 
         /// <summary>

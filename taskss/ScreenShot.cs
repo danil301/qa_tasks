@@ -14,6 +14,7 @@ namespace taskss
         private Size _size;
         private string _path;
         private Bitmap _bpm;
+        private string _title;
 
         public ScreenShot(string path)
         {
@@ -40,9 +41,24 @@ namespace taskss
             _bpm = bmp;
         }
 
-        public void SaveScreenShotPng(string title)
+        public void SaveScreenShotPng()
         {
-            _bpm.Save($"{_path}/{title}.png");
+            GenerateScreenTitle();
+            _bpm.Save($"{_path}/{_title}.png");
         }
+
+        public void GenerateScreenTitle()
+        {
+            Random random = new Random();
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            int len = random.Next(1, 20);
+
+            string str = string.Empty;
+            for (int i = 0; i < len; i++) str += chars[random.Next(0, chars.Length - 1)];
+
+            _title = str;
+        }
+
+        public string GetScreenShotTitle() => _title;
     }
 }

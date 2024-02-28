@@ -11,7 +11,6 @@ class Program
     public static void Main()
     {
 
-
         //дз 2.7
         int way;
         int time;
@@ -27,62 +26,57 @@ class Program
         if (wayCheck && timeCheck && someVariableCheck && way >= 1 && time >= 1) Console.WriteLine(taxiPrice(way, time, someVariable));
         else
         {
-            ScreenShot screenShot = new ScreenShot("C:/Users/dvory/Desktop/LostButFound/taskss/Screens");
-            LoggerCustom loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/logs.txt");
-            var screenTitle = RandomString();
+            LoggerCustom loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/logs.txt",
+                "C:/Users/dvory/Desktop/LostButFound/taskss/Screens");           
 
-            screenShot.TakeScreenshot();
-            screenShot.SaveScreenShotPng(screenTitle);
-
-
-            loggerCustom.LogAsync("Неверный формат заполнения пути и/или времени." + $" Screen Title: {screenTitle}.png");
+            loggerCustom.LogAsync("Неверный формат заполнения пути и/или времени.");
 
             Console.WriteLine("Неверный формат заполнения пути и/или времени.");
         }
 
 
-        //дз 6.1 абв(Данил вроде говорил немного самых простых тож решать но это не точно)
-        PrintSortedArray(new int[] { 23, 1, 21, 100 });
-        PrintChangedSortedArr(new string[] { "dsfsdv", "cwdd", "sadED", "DCsdds", "cses", "cdCDCSD" });
-        PrintConcatedArrays(new string[] { "dd", "cded", "wdfs" }, new string[] { "dsdff", "fsfvfrsq", "dsds" });
+        ////дз 6.1 абв(Данил вроде говорил немного самых простых тож решать но это не точно)
+        //PrintSortedArray(new int[] { 23, 1, 21, 100 });
+        //PrintChangedSortedArr(new string[] { "dsfsdv", "cwdd", "sadED", "DCsdds", "cses", "cdCDCSD" });
+        //PrintConcatedArrays(new string[] { "dd", "cded", "wdfs" }, new string[] { "dsdff", "fsfvfrsq", "dsds" });
 
-        //дз 6.3
-        string[] names = new string[] { "Bob", "Jack", "Liza", "Tom", "Jessie", "Maria", "Mark", "Maxim", "Danil", "Sarah" };
-        string[] branches = new string[] { "QA", "Doctor", "Teacher", "Front", "Back", "ML" };
-        Rate[] rates = new Rate[] { Rate.Bad, Rate.Medium, Rate.Good, Rate.Excellent };
-        int n = 10;
+        ////дз 6.3
+        //string[] names = new string[] { "Bob", "Jack", "Liza", "Tom", "Jessie", "Maria", "Mark", "Maxim", "Danil", "Sarah" };
+        //string[] branches = new string[] { "QA", "Doctor", "Teacher", "Front", "Back", "ML" };
+        //Rate[] rates = new Rate[] { Rate.Bad, Rate.Medium, Rate.Good, Rate.Excellent };
+        //int n = 10;
 
-        Diary diary = new Diary(n);
-        for (int i = 0; i < n; i++)
-        {
-            Random random = new Random();
-            diary.WriteStudentAsync(names[random.Next(0, names.Length - 1)], branches[random.Next(0, branches.Length - 1)], rates[random.Next(0, rates.Length - 1)]);  
-        }
-        diary.WriteStudentAsync("", "", Rate.Bad);
-        diary.WriteStudentAsync("Лишний", "a", Rate.Medium);
-        diary.PrintStudents();
+        //Diary diary = new Diary(n);
+        //for (int i = 0; i < n; i++)
+        //{
+        //    Random random = new Random();
+        //    diary.WriteStudentAsync(names[random.Next(0, names.Length - 1)], branches[random.Next(0, branches.Length - 1)], rates[random.Next(0, rates.Length - 1)]);  
+        //}
+        //diary.WriteStudentAsync("", "", Rate.Bad);
+        //diary.WriteStudentAsync("Лишний", "a", Rate.Medium);
+        //diary.PrintStudents();
 
 
 
-        //дз 8.3
-        // todo сделать грузовик, подумать что нужно добавить ещё
-        var driver = new Driver("Mike", 100000);
-        var name = "Автобус";
-        var realised = 2000;
-        var fuel = 15;
-        var mileage = 100000;
-        var averageConsumption = 5;
-        var volume = 100;
-        var maxWeight = 1500;
-        var maxPassangersAmount = 20;
+        ////дз 8.3
+        //// todo сделать грузовик, подумать что нужно добавить ещё
+        //var driver = new Driver("Mike", 100000);
+        //var name = "Автобус";
+        //var realised = 2000;
+        //var fuel = 15;
+        //var mileage = 100000;
+        //var averageConsumption = 5;
+        //var volume = 100;
+        //var maxWeight = 1500;
+        //var maxPassangersAmount = 20;
 
-        Bus bus = new Bus(driver, name, realised, fuel, mileage, averageConsumption, volume, maxWeight, maxWeight);
-        bus.About();
-        bus.FillFuel(20);
-        bus.Move(1000);
-        bus.PrintFuel();
-        bus.FillThings(199);
-        bus.PrintPassangersAmount();
+        //Bus bus = new Bus(driver, name, realised, fuel, mileage, averageConsumption, volume, maxWeight, maxWeight);
+        //bus.About();
+        //bus.FillFuel(20);
+        //bus.Move(1000);
+        //bus.PrintFuel();
+        //bus.FillThings(199);
+        //bus.PrintPassangersAmount();
     }
 
     public static int taxiPrice(int way, int time, int someVariable)
@@ -93,20 +87,11 @@ class Program
         }
         catch (Exception ex)
         {
+            LoggerCustom loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/logs.txt",
+                "C:/Users/dvory/Desktop/LostButFound/taskss/Screens");
+
+            loggerCustom.LogAsync(ex.Message);
             
-            ScreenShot screenShot = new ScreenShot("C:/Users/dvory/Desktop/LostButFound/taskss/Screens");
-            LoggerCustom loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/logs.txt");
-
-            var screenTitle = RandomString();
-
-            screenShot.TakeScreenshot();
-            screenShot.SaveScreenShotPng(screenTitle);
-
-
-            loggerCustom.LogAsync(ex.Message + $" Screen Title: {screenTitle}.png");
-            
-
-
             Console.WriteLine(ex.Message);
             return 0;
         }
