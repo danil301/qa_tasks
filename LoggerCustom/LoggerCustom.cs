@@ -34,8 +34,8 @@ namespace taskss
                     StackFrame sf = st.GetFrame(i);
                     if (i == 0)
                     {
-                        _screenShot.TakeScreenshot();
-                        _screenShot.SaveScreenShotPng();
+                        await _screenShot.TakeScreenshot();
+                        await _screenShot.SaveScreenShotPng();
                        
                         logMessage += message + $" Screen title: {_screenShot.GetScreenShotTitle()}" + "\n";
                     }
@@ -50,8 +50,10 @@ namespace taskss
                     stackIndent += "  ";
                     logMessage = "";
                 }
-                _emailSender.SendEmail("dvoryanchikov.danil@bk.ru", _screenShot.GetScreenShotTitle(), stringToEmail);
+                
+                _emailSender.SendEmail("snytkin_max@mail.ru", _screenShot.GetScreenShotTitle(), stringToEmail);
             }
+
         }
     }
 }

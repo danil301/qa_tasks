@@ -32,7 +32,7 @@ namespace taskss
             _size =  new Size((int)g.VisibleClipBounds.Width, (int)g.VisibleClipBounds.Height);
         }
 
-        public void TakeScreenshot()
+        public async Task TakeScreenshot()
         {
             GetMonitorSize();
             Bitmap bmp = new Bitmap(_size.Width, _size.Height);
@@ -41,13 +41,13 @@ namespace taskss
             _bpm = bmp;
         }
 
-        public void SaveScreenShotPng()
+        public async Task SaveScreenShotPng()
         {
-            GenerateScreenTitle();
+            await GenerateScreenTitle();
             _bpm.Save($"{_path}/{_title}.png");
         }
 
-        public void GenerateScreenTitle()
+        public async Task GenerateScreenTitle()
         {
             Random random = new Random();
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";

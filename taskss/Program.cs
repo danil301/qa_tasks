@@ -10,29 +10,43 @@ class Program
 {
     public static void Main()
     {
+        LoggerCustom loggerCustom = new LoggerCustom($"{Environment.GetEnvironmentVariable("LogsPath")}/logs.txt",
+                Environment.GetEnvironmentVariable("ScreensPath"));
 
-        //дз 2.7
-        int way;
-        int time;
-        int someVariable;
-
-        Console.Write("Введите путь(км): ");
-        bool wayCheck = int.TryParse(Console.ReadLine(), out way);
-        Console.Write("Введите время(мин): ");
-        bool timeCheck = int.TryParse(Console.ReadLine(), out time);
-        Console.Write("Введите параметр: ");
-        bool someVariableCheck = int.TryParse(Console.ReadLine(), out someVariable);
-
-        if (wayCheck && timeCheck && someVariableCheck && way >= 1 && time >= 1) Console.WriteLine(taxiPrice(way, time, someVariable));
-        else
+        for (int i = 0; i < 5; i++)
         {
-            LoggerCustom loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/logs.txt",
-                "C:/Users/dvory/Desktop/LostButFound/taskss/Screens");           
-
-            loggerCustom.LogAsync("Неверный формат заполнения пути и/или времени.");
-
-            Console.WriteLine("Неверный формат заполнения пути и/или времени.");
+            Thread myThread = new Thread(() =>
+            {
+                StartTaxi(loggerCustom);
+            });
+            myThread.Start();
+            myThread.Join();
         }
+
+
+        Console.WriteLine("All threads completed.");
+
+        ////дз 2.7
+        //int way;
+        //int time;
+        //int someVariable;
+
+        //Console.Write("Введите путь(км): ");
+        //bool wayCheck = int.TryParse(Console.ReadLine(), out way);
+        //Console.Write("Введите время(мин): ");
+        //bool timeCheck = int.TryParse(Console.ReadLine(), out time);
+        //Console.Write("Введите параметр: ");
+        //bool someVariableCheck = int.TryParse(Console.ReadLine(), out someVariable);
+
+        //if (wayCheck && timeCheck && someVariableCheck && way >= 1 && time >= 1) Console.WriteLine(taxiPrice(way, time, someVariable, loggerCustom));
+        //else
+        //{
+        //    loggerCustom.LogAsync("Неверный формат заполнения пути и/или времени.");
+        //    Console.WriteLine("Неверный формат заполнения пути и/или времени.");
+        //}
+
+
+
 
 
         ////дз 6.1 абв(Данил вроде говорил немного самых простых тож решать но это не точно)
@@ -79,23 +93,33 @@ class Program
         //bus.PrintPassangersAmount();
     }
 
-    public static int taxiPrice(int way, int time, int someVariable)
+    public static void StartTaxi(LoggerCustom loggerCustom)
+    {
+        for (int j = 0; j < 20; j++)
+        {
+            Random rnd = new Random();
+            int way = rnd.Next(1, 100);
+            int time = rnd.Next(1, 100);
+            int someVariable = rnd.Next(1, 100);
+
+            taxiPrice(way, time, someVariable, loggerCustom);
+        }
+    }
+
+    public static int taxiPrice(int way, int time, int someVariable, LoggerCustom loggerCustom)
     {
         try
         {
-            return Math.Max(30 * way, 40 * time) / someVariable;
+            var price = Math.Max(30 * way, 40 * time) / someVariable;
+            loggerCustom.LogAsync($"Сумма поездки {price}");
+            return price;
         }
         catch (Exception ex)
         {
-            LoggerCustom loggerCustom = new LoggerCustom("C:/Users/dvory/Desktop/LostButFound/taskss/logs.txt",
-                "C:/Users/dvory/Desktop/LostButFound/taskss/Screens");
-
             loggerCustom.LogAsync(ex.Message);
-            
             Console.WriteLine(ex.Message);
             return 0;
         }
-        
     }
 
     public static void PrintSortedArray(int[] arr)

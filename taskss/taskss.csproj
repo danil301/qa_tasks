@@ -12,12 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="logger\" />
-    <Folder Include="Screens\" />
+    <ProjectReference Include="..\LoggerCustom\LoggerCustom.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LoggerCustom\LoggerCustom.csproj" />
+    <Folder Include="Screens\" />
   </ItemGroup>
 
 </Project>
