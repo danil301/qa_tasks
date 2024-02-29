@@ -1,0 +1,12 @@
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\obj\Debug\net6.0\LoggerCustom.csproj.AssemblyReference.cache
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\obj\Debug\net6.0\LoggerCustom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\obj\Debug\net6.0\LoggerCustom.AssemblyInfoInputs.cache
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\obj\Debug\net6.0\LoggerCustom.AssemblyInfo.cs
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\obj\Debug\net6.0\LoggerCustom.csproj.CoreCompileInputs.cache
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\bin\Debug\net6.0\LoggerCustom.deps.json
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\bin\Debug\net6.0\LoggerCustom.dll
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\bin\Debug\net6.0\LoggerCustom.pdb
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\obj\Debug\net6.0\LoggerCustom.dll
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\obj\Debug\net6.0\refint\LoggerCustom.dll
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\obj\Debug\net6.0\LoggerCustom.pdb
+C:\Users\dvory\Desktop\LostButFound\LoggerCustom\obj\Debug\net6.0\ref\LoggerCustom.dll

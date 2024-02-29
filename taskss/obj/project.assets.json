@@ -136,6 +136,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "LoggerCustom/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/LoggerCustom.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoggerCustom.dll": {}
+        }
       }
     }
   },
@@ -485,12 +498,17 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "LoggerCustom/1.0.0": {
+      "type": "project",
+      "path": "../LoggerCustom/LoggerCustom.csproj",
+      "msbuildProject": "../LoggerCustom/LoggerCustom.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Extensions.Logging >= 8.0.0",
-      "System.Drawing.Common >= 8.0.2"
+      "LoggerCustom >= 1.0.0",
+      "Microsoft.Extensions.Logging >= 8.0.0"
     ]
   },
   "packageFolders": {
@@ -524,7 +542,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dvory\\Desktop\\LostButFound\\LoggerCustom\\LoggerCustom.csproj": {
+              "projectPath": "C:\\Users\\dvory\\Desktop\\LostButFound\\LoggerCustom\\LoggerCustom.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -540,10 +562,6 @@
           "Microsoft.Extensions.Logging": {
             "target": "Package",
             "version": "[8.0.0, )"
-          },
-          "System.Drawing.Common": {
-            "target": "Package",
-            "version": "[8.0.2, )"
           }
         },
         "imports": [

@@ -11,13 +11,13 @@ namespace taskss
 {
     public class EmailSender
     {
-        public void SendEmail(string adress, string fileName)
+        public void SendEmail(string adress, string fileName, string log)
         {
             MailAddress fromAddress = new MailAddress("dvoryanchikov.danil@bk.ru", "QAA WEB PSB" +
                 "");
             MailAddress toAddress = new MailAddress(adress);
             MailMessage message = new MailMessage(fromAddress, toAddress);
-            message.Body = "Тут будет сообщение ошибки";
+            message.Body = log;
             message.Subject = "лог";
 
             byte[] bytes = System.IO.File.ReadAllBytes($"C:/Users/dvory/Desktop/LostButFound/taskss/Screens/{fileName}.png");
@@ -32,9 +32,7 @@ namespace taskss
                 smtp.EnableSsl = true;
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtp.Send(message);
-            }
-
-            
+            }          
         }
 
     }

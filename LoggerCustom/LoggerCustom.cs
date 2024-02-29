@@ -27,6 +27,8 @@ namespace taskss
             {
                 StackTrace st = new StackTrace(true);
                 string stackIndent = "";
+                string logMessage = "";
+                string stringToEmail = "";
                 for (int i = 0; i < st.FrameCount; i++)
                 {
                     StackFrame sf = st.GetFrame(i);
@@ -34,17 +36,21 @@ namespace taskss
                     {
                         _screenShot.TakeScreenshot();
                         _screenShot.SaveScreenShotPng();
-                        writer.WriteLine(message + $" Screen title: {_screenShot.GetScreenShotTitle()}");
-
-                        _emailSender.SendEmail("dvoryanchikov.danil@bk.ru", _screenShot.GetScreenShotTitle());
+                       
+                        logMessage += message + $" Screen title: {_screenShot.GetScreenShotTitle()}" + "\n";
                     }
-                    writer.WriteLine();
-                    writer.WriteLine(stackIndent + " Method: {0}", sf.GetMethod());
-                    writer.WriteLine(stackIndent + " File: {0}", sf.GetFileName());
-                    writer.WriteLine(stackIndent + " Line Number: {0}", sf.GetFileLineNumber());
+                    logMessage += "\n";
+                    logMessage += stackIndent + $" Method: {sf.GetMethod()}" + "\n";
+                    logMessage += stackIndent + $" File: {sf.GetFileName()}" + "\n";
+                    logMessage += stackIndent + $" Line Number: {sf.GetFileLineNumber()}" + "\n";
+
+                    await writer.WriteLineAsync(logMessage);
+                    
+                    stringToEmail += logMessage;
                     stackIndent += "  ";
-                    await writer.WriteLineAsync();
+                    logMessage = "";
                 }
+                _emailSender.SendEmail("dvoryanchikov.danil@bk.ru", _screenShot.GetScreenShotTitle(), stringToEmail);
             }
         }
     }
