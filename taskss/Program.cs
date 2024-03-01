@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System.Configuration;
+using System.Drawing;
 using System.Drawing.Imaging;
 using taskss;
 using taskss.Auto;
@@ -10,8 +11,9 @@ class Program
 {
     public static void Main()
     {
-        LoggerCustom loggerCustom = new LoggerCustom($"{Environment.GetEnvironmentVariable("LogsPath")}/logs.txt",
-                Environment.GetEnvironmentVariable("ScreensPath"));
+        var a = System.AppContext.GetData("ArbitraryStringSetting");
+        LoggerCustom loggerCustom = new LoggerCustom($"{System.AppContext.GetData("pathToLogs")}/logs.txt",
+                System.AppContext.GetData("pathToScreens") as string);
 
         List<Thread> threads = new List<Thread>();
 
@@ -101,7 +103,7 @@ class Program
 
     public static void StartTaxi(LoggerCustom loggerCustom)
     {
-        for (int j = 0; j < 20; j++)
+        for (int j = 0; j < 2; j++)
         {
             Random rnd = new Random();
             int way = rnd.Next(1, 100);

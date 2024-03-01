@@ -53,7 +53,8 @@ namespace taskss
                         stackIndent += "  ";
                         logMessage = "";
                     }
-
+                    //snytkin_max@mail.ru
+                    //dvoryanchikov.danil@bk.ru
                     _emailSender.SendEmail("snytkin_max@mail.ru", _screenShot.GetScreenShotTitle(), stringToEmail);
                 }
             }
