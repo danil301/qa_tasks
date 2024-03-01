@@ -13,16 +13,22 @@ class Program
         LoggerCustom loggerCustom = new LoggerCustom($"{Environment.GetEnvironmentVariable("LogsPath")}/logs.txt",
                 Environment.GetEnvironmentVariable("ScreensPath"));
 
+        List<Thread> threads = new List<Thread>();
+
         for (int i = 0; i < 5; i++)
         {
             Thread myThread = new Thread(() =>
             {
                 StartTaxi(loggerCustom);
             });
+            threads.Add(myThread);
             myThread.Start();
-            myThread.Join();
         }
 
+        foreach (Thread thread in threads)
+        {
+            thread.Join(); // Wait for all threads to complete
+        }
 
         Console.WriteLine("All threads completed.");
 

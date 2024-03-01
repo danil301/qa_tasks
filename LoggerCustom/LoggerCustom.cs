@@ -8,6 +8,7 @@ namespace taskss
         private string _path;
         private ScreenShot _screenShot;
         private EmailSender _emailSender;
+        private readonly object _lock = new object();
 
         public LoggerCustom(string path, string imgPath)
         {
@@ -23,35 +24,38 @@ namespace taskss
         /// <returns></returns>
         public async Task LogAsync(string message)
         {
-            using (StreamWriter writer = new StreamWriter(_path, true))
+            lock (_lock)
             {
-                StackTrace st = new StackTrace(true);
-                string stackIndent = "";
-                string logMessage = "";
-                string stringToEmail = "";
-                for (int i = 0; i < st.FrameCount; i++)
+                using (StreamWriter writer = new StreamWriter(_path, true))
                 {
-                    StackFrame sf = st.GetFrame(i);
-                    if (i == 0)
+                    StackTrace st = new StackTrace(true);
+                    string stackIndent = "";
+                    string logMessage = "";
+                    string stringToEmail = "";
+                    for (int i = 0; i < st.FrameCount; i++)
                     {
-                        await _screenShot.TakeScreenshot();
-                        await _screenShot.SaveScreenShotPng();
-                       
-                        logMessage += message + $" Screen title: {_screenShot.GetScreenShotTitle()}" + "\n";
-                    }
-                    logMessage += "\n";
-                    logMessage += stackIndent + $" Method: {sf.GetMethod()}" + "\n";
-                    logMessage += stackIndent + $" File: {sf.GetFileName()}" + "\n";
-                    logMessage += stackIndent + $" Line Number: {sf.GetFileLineNumber()}" + "\n";
+                        StackFrame sf = st.GetFrame(i);
+                        if (i == 0)
+                        {
+                            _screenShot.TakeScreenshot();
+                            _screenShot.SaveScreenShotPng();
 
-                    await writer.WriteLineAsync(logMessage);
-                    
-                    stringToEmail += logMessage;
-                    stackIndent += "  ";
-                    logMessage = "";
+                            logMessage += message + $" Screen title: {_screenShot.GetScreenShotTitle()}" + "\n";
+                        }
+                        logMessage += "\n";
+                        logMessage += stackIndent + $" Method: {sf.GetMethod()}" + "\n";
+                        logMessage += stackIndent + $" File: {sf.GetFileName()}" + "\n";
+                        logMessage += stackIndent + $" Line Number: {sf.GetFileLineNumber()}" + "\n";
+
+                        writer.WriteLineAsync(logMessage);
+
+                        stringToEmail += logMessage;
+                        stackIndent += "  ";
+                        logMessage = "";
+                    }
+
+                    _emailSender.SendEmail("snytkin_max@mail.ru", _screenShot.GetScreenShotTitle(), stringToEmail);
                 }
-                
-                _emailSender.SendEmail("snytkin_max@mail.ru", _screenShot.GetScreenShotTitle(), stringToEmail);
             }
 
         }
